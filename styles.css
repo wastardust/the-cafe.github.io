@@ -1,0 +1,61 @@
+body {
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    size: 24px;
+    text-align: center;
+}
+
+.navigation {
+    background-color: rgb(136, 134, 134);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 54.5px;
+}
+
+.tabs {
+    display: block;
+    width: 100%;
+    height: 54.5px;
+    text-align: center;
+}
+
+p {
+    display: flex;
+    height: 54.5px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.tabs:hover {
+    background-color: black;
+}
+
+a:link {
+    color: #497DDD;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+
+    /*да где тут вписывание то
+}
